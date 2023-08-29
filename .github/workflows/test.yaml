@@ -24,5 +24,7 @@ jobs:
 
       - run: "ls -la /opt/hostedtoolcache/scarb/0.6.2/x86_64-unknown-linux-gnu/bin"
 
+      - run: scarb-cairo-test
+
       - name: Run tests
         run: scarb test
