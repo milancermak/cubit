@@ -20,5 +20,7 @@ jobs:
         with:
             scarb-version: "0.6.2"
 
+      - run: "echo $PATH"
+
       - name: Run tests
         run: scarb test
