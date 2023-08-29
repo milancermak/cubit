@@ -22,5 +22,7 @@ jobs:
 
       - run: "echo $PATH"
 
+      - run: "ls -la /opt/hostedtoolcache/scarb/0.6.2/x86_64-unknown-linux-gnu/bin"
+
       - name: Run tests
         run: scarb test
